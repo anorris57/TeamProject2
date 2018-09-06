@@ -1,0 +1,142 @@
+
+
+#left {
+
+  float: left;
+}
+#right { 
+
+  float: right;
+}
+
+.lform{
+  background-color: #c2c7bd;
+  padding:10px;
+  margin: 10px;
+}
+
+.loginsingnup {
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  background-color: #f1ededcc;
+  padding: 10px 50px 10px 50px;
+  border-radius: 15px;
+  border: 2px solid #cbcbcb;
+  box-shadow: 10px 15px 5px #777;
+
+}
+#loginTitle{
+  text-align: center;
+  color: #175c02;
+  font-size: larger;
+  font-weight: 500;
+}
+#usernameid label{
+  width:  25%;
+}
+#emailid label{
+  width:  25%;
+}
+
+#passwordid label{
+  width:  25%;
+}
+
+#username, #email, #password {
+  width: 50%;
+  border-radius: 20px;
+  padding-left: 5px;
+}
+
+input[type=submit] {
+  padding: 5 10px 5 10px;
+  width: 50%;
+  background-color: rgb(138, 153, 209);
+  color: #FFF8CD;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 15px; 
+  border-color: #fff8cd;
+  border-width: thick;
+}
+
+#formbutton {
+  text-align: center;
+}
+
+input:hover {
+  color:  rgb(95, 3, 3);
+}
+
+a h6{
+  color: #175c02;
+}
+
+.btn .btn-light {
+  background-color: #0b08ee;
+  color: #124602;
+}
+
+/* Blog Related Styles */
+.blog-content{
+  background-color:  rgba(255, 255, 255, 0.582);
+}
+
+.blog-container{
+  overflow: auto;
+  height: 350px;
+  max-height: 950px;
+}
+
+.blog-container .card{
+  margin: 15px;
+  border-radius: 15px;
+}
+
+
+.delete{
+  position: relative;
+  color: rgb(13, 7, 24);
+  background-color: rgb(247, 96, 96);
+  width: 3%;
+  height: 25px;
+  font-size: large;
+  font-size-adjust: initial;
+  text-align: center;
+  float: right;
+  padding:2px;
+
+}
+.edit{
+  position: relative;
+  color: rgb(13, 7, 24);
+  background-color: rgb(130, 243, 115);
+  width: 4%;
+  height: 25px;
+  float: right;
+  text-align: center;
+  padding:2px;
+}
+
+#newblogbtn  {
+  background-color: rgb(138, 153, 209);
+  color: white;
+  width: 30%;
+  height: 30px;
+  padding: 3px;
+  position: relative;
+}
+#newblogsubmitbtn{
+  background-color: rgb(138, 153, 209);
+  color: white;
+  width: 30%;
+  height: 30px;
+  padding: 3px;
+  position: relative;
+}
+
+.card .card-header{
+  background-color: #d9e4f7;
+}

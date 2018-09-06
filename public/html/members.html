@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+        <!-- metadata -->
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Project 2: GA Tech Bootcamp" />
+        <meta name="author" content="Danny Sprouse, Angela Norris, Jay Pillai, Juhi Patel" />
+    
+        <!-- website title -->
+        <title>Let's Talk Pets!</title>
+    
+        <!-- script for jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Moment.js Reference -->
+        <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+        <!-- link to bootstrap cdn -->
+    
+        <!-- link to bootstrap cdn -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    
+        <!-- link to css stylesheet -->
+        <!-- link to css stylesheet -->
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/style2.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="../assets/css/style.css" />
+    
+        <!-- link to social media buttons with fontawesome icon library -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+            crossorigin="anonymous" />
+    
+            <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+   
+</head>
+
+<!-- PAGE CONTENT -->
+
+<body>
+
+
+    <div class="container-fluid container-wrap">
+        <div class="container-fluid header">
+            <div class="row">
+                <div class="col">  
+                    <img id="logo" src="../assets/images/logo.png" />
+                </div>
+                <div class="col" id="headercenter">
+                    <img class="catpad" src="../assets/images/cat4.jpg" />
+                    <br /><br />
+                    <img src="../assets/images/dog2small.jpg" />
+                    <br />
+                </div>
+                <div class="col" id="bfad">
+                        <a href="https://bestfriends.org/about-best-friends/our-mission/save-them-all" target="_blank">
+                            <img src="../assets/images/bfad.png" />
+                        </a>
+                        <p>Best Friends is nationwide animal rescue and advocacy organization, with spay neuter, TNR (trap neuter
+                            return), pet adoption and no-kill programs.</p>
+                    </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row navigation">
+                    <div class="col"></div>
+                    <div class="col"></div>
+                    <div class="col-md-5">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/logout">Log Out</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </div>
+
+        <br /><br />
+        <br />    
+        <div class="row">
+            <div class="col-md-12">
+                    <div class="card text-center">
+                        <div class="blogs-section">
+                            <div>
+                                <h5 class="blog-title">Welcome to Your My Blog</h5>
+                            </div>
+                        </div>
+                        <div class="button-group">
+                            <table class="optiontable">
+                            <tr>
+                                <div class="col-md-8 offset-md-2 ">
+                                    <div>
+                                        <button id="newblogbtn" type="button"  class="btn">+Add New Post</button>
+                                    </div>
+                                </div>
+                            </tr>
+                            <br>
+                            <tr>
+                                <div class="col-md-8 offset-md-2 blog-content">
+                                    <form id="blog">
+                                        <div class="form-group">
+                                            <label for="title">Title:</label>
+                                            <input type="text" class="form-control" id="title">
+                                            <br/>
+                                            <label for="body">Your Thoughts</label>
+                                            <textarea class="form-control" rows="7" id="formbody"></textarea>
+                                            <br />
+                                            <button type="submit" class="btn btn-success submit btn-sm" id= "newblogsubmitbtn">Submit</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </tr>
+                            </table>                                                                                                                   
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                        <div class="card text-center">
+                            <div class="blogs-section">
+                                <div>
+                                    <h5 class="blog-title">Recent Posts</h5>
+                                </div>
+                            </div>
+                            <div class="button-group">
+                                <table class="optiontable">
+                                <br>
+                                <tr>
+                                    <div class="col-md-12 blog-container">
+                                    </div>
+                                </tr>
+                                </table>                                                                                                                   
+                            </div>
+                        </div>
+            </div>
+        </div>
+        <!-- Recent Posts -->
+    </div>
+    <!-- close wrapper -->
+<!-- footer info -->
+<br>
+<br>
+<footer class="container-fluid">
+
+    <div class="row rowonefoot">
+        <div class="col">
+            <img id="logo2" src="../assets/images/logo2.png" width=50% />
+        </div>
+        <div class="col">
+            <img id="catdog" src="../assets/images/catdog.jpg" />
+        </div>
+        <div class="col">
+            <p>Follow Us
+                <br />
+                <!-- font awesome social button icons -->
+                <span class="social-icons">
+                    <a href="#" target="_blank" class="fab fa-instagram">
+                    </a>
+                </span>
+                <br />
+                <span class="social-icons">
+                    <a href="#" target="_blank" class="fab fa-twitter">
+                    </a>
+                </span>
+                <br />
+                <span class="social-icons">
+                    <a href="#" target="_blank" class="fab fa-facebook">
+                    </a>
+                </span>
+                <br />
+                <span class="social-icons">
+                    <a href="#" target="_blank" class="fab fa-pinterest">
+                    </a>
+                </span>
+            </p>
+        </div>
+    </div>
+
+    
+
+    <div class="row">
+        <div class="col">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Advertise</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Terms of Use</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Privacy Policy</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul>
+            <p id="copyright">Copyright &#169; 2018 &nbsp; &nbsp;</p>
+        </div>
+    </div>
+</footer>
+   
+
+
+    <!-- script for javascript -->
+    <!-- <script src="assets/javascript/pets.js"></script> -->
+    <script src="../js/members.js"></script>
+
+
+</body>
+
+</html>

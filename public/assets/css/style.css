@@ -1,0 +1,218 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  * {
+    box-sizing: inherit;
+  }
+
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 8rem;
+    min-height: 100%;
+    background-color: #e7e8ec;
+    color: #000;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+#body {
+    padding-bottom: 400px;
+}
+
+.container-wrap {
+    max-width: 1250px;
+    min-height: 100%;
+    position: relative;
+}
+
+.header {
+    text-align: center;
+    padding-top: 5px;
+}
+
+#headercenter {
+    padding-top: 25px;
+}
+
+#register {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#logo {
+    padding-top: 20px;
+}
+
+#bfad {
+    padding-top: 50px;
+}
+
+.navigation {
+    background-color: #949AB3;
+}
+
+.nav-link {
+    color: #FFF8CD;
+}
+
+.nav-link:hover {
+    color: rgb(95, 3, 3);
+}
+
+.nav-item {
+    padding-left: 35px;
+}
+
+.tabs {
+    width: 94%;
+}
+
+.dogside {
+    padding-left: 65px;
+}
+
+.catpad {
+    padding-right: 20px;
+}
+
+#paws {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding-top: 35px;
+    -webkit-opacity: 0.25;
+    -moz-opacity: 0.25;
+    opacity: 0.25;
+    -webkit-transition: all 3s ease;
+    -moz-transition: all 3s ease;
+    -ms-transition: all 3s ease;
+    -o-transition: all 3s ease;
+    transition: all 3s ease;
+
+    -webkit-animation: fadein 7s; /* Safari and Chrome */
+    -moz-animation: fadein 7s; /* Firefox */
+    -ms-animation: fadein 7s; /* Internet Explorer */
+    -o-animation: fadein 7s; /* Opera */
+    animation: fadein 7s;
+}
+
+@keyframes fadein {
+    from { opacity: 0.75; }
+    to   { opacity: 0.25; }
+}
+
+/* Firefox */
+@-moz-keyframes fadein {
+    from { opacity: 0.9; }
+    to   { opacity: 0.25; }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes fadein {
+    from { opacity: 0.9; }
+    to   { opacity: 0.25; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0.9; }
+    to   { opacity: 0.25; }
+}​
+
+
+.headSubmit {
+    width: 160px;
+    background-color: #392943;
+}
+
+.joinNow {
+    width: 200px;
+    text-align: center;
+    border: none;
+    background-color:  #949AB3;
+    color: #FFF8CD;
+}
+
+.joinNow:hover {
+    color: rgb(95, 3, 3);
+}
+
+.dogImg, .catImg, .rabbitImg {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.animaltitle {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.petnarrative {
+    text-align: left;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 25px;
+}
+
+footer {
+    
+    border-top: 4px solid #FFF8CD;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: #C3C6D3;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 1rem;
+    /* height: 200px; */
+}
+
+#catdog {
+    border-radius: 5px;
+}
+
+.rowonefoot {
+    padding-top: 25px;
+}
+
+#copyright {
+    color: #000;
+}
+
+     /* social icons */
+
+     .social-icons {
+        font-size: 20px;
+        text-align: center;
+        text-decoration: none;
+        margin: 10px 5px;
+    }
+      
+    .fab:hover {
+        opacity: 0.7;
+        color: #000;
+    }
+      
+    .fa-instagram, .fa-twitter, .fa-facebook, .fa-pinterest {
+        color: #fff;
+    }
+
+    .btn-outline-primary {
+        color: #000;
+        border-color: #FFF8CD;
+        width: 120px;
+    }
+    
+    .btn-outline-primary:hover {
+        background-color: #fff8cd;
+        color: #000;
+        border: none;
+    }

@@ -1,0 +1,207 @@
+.jumbotron {
+  font-family: Shrikhand, cursive;
+  color: white;
+  color: rgb(253, 236, 76);
+  background-color: #1da1f2;
+  background-color: #80e60d;
+  background-color: #2f8d03;
+}
+
+.btn {
+  background-color: #319114;
+  color: rgb(204, 250, 96);
+  color: rgb(253, 236, 76);
+  width: 80%;
+  position: absolute;
+  margin: auto;
+}
+#wrapper {
+  width: 100%; 
+
+}
+#left {
+
+  float: left;
+}
+#right { 
+
+  float: right;
+}
+
+.lform{
+  background-color: #c2c7bd;
+  padding:10px;
+  margin: 10px;
+}
+
+.loginsingnup {
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  background-color: #f1ededcc;
+  padding: 10px 50px 10px 50px;
+  border-radius: 15px;
+  border: 2px solid #cbcbcb;
+  box-shadow: 10px 15px 5px #777;
+
+}
+#loginTitle{
+  text-align: center;
+  color: #175c02;
+  font-size: larger;
+  font-weight: 500;
+}
+#usernameid label{
+  width:  25%;
+}
+#emailid label{
+  width:  25%;
+}
+#emailid #email{
+  width: 70%;
+}
+#passwordid label{
+  width:  25%;
+}
+
+input[type=submit] {
+  padding: 5 10px 5 10px;
+  width: 25%;
+  background-color: #38db06;
+  background-color: #2f8d03;
+  background-color: #074b78;
+  color: white;
+  border:0 none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; 
+}
+
+a h6{
+  color: #175c02;
+}
+
+.btn .btn-light {
+  background-color: #0b08ee;
+  color: #124602;
+}
+
+
+/* Blogging section styling begins */
+.blogs-section{
+  border: #c2c7bd;
+  border-style: none;
+  border-radius: 2px;
+  padding: 2px;
+}
+.blog-title{
+  background-color: #074b78;
+  color: white;
+}
+
+.blog-body{
+  background-color: #fff;
+  /* background-color: #e7e8ec; */
+}
+/* Blogging section styling ends */
+.button-group{
+  background-color:  rgba(255, 255, 255, 0.582);
+}
+#newblogbtn  {
+  background-color: #074b78;
+  color: white;
+  width: 30%;
+  height: 30px;
+  padding: 3px;
+  position: relative;
+}
+#newblogsubmitbtn{
+  background-color: #074b78;
+  color: white;
+  width: 30%;
+  height: 30px;
+  padding: 3px;
+  position: relative;
+}
+
+.blog-content{
+  background-color:  rgba(255, 255, 255, 0.582);
+}
+
+.blog-container{
+  overflow: auto;
+  height: 350px;
+}
+.delete{
+  position: relative;
+  color: rgb(13, 7, 24);
+  background-color: rgb(246, 22, 22);
+  width: 3%;
+  height: 25px;
+  font-size: large;
+  font-size-adjust: initial;
+  text-align: center;
+  float: right;
+  padding:2px;
+
+}
+.edit{
+  position: relative;
+  color: rgb(13, 7, 24);
+  background-color: rgb(27, 175, 7);
+  width: 7%;
+  height: 25px;
+  float: right;
+  text-align: center;
+  padding:2px;
+}
+
+.card-header{
+  height: 40px;
+  background-color: #a1d7f8;
+  border-color: #0b08ee;
+  border-style: outset;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: x-small;
+  text-align: center;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+.form-group label{
+  font-weight: 500;
+}
+
+.card-body{
+  padding: 2px;
+  border-style: inset;
+  border-radius: 10px;
+  margin: 10px;
+}
+.card-body {
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px;
+}
+
+ .button-group-all .blog-container .mx-auto .card-body{
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.loginlogoutImg{
+  width: 50%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+.button-group-all{
+  overflow: auto;
+  max-height: 200px;
+}
+
+.card .mx-auto{
+  padding: 10px;
+}
